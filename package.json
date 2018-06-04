@@ -1,14 +1,18 @@
 {
-  "name":"appium-test",
-  "version":"0.1.1",
-  "repository":"https://github.com/filmaj/appium-test",
-  "devDependencies":{
-    "wd":"^0.3.12",
-    "babel":"^5.4.7",
-    "mocha":"^2.2.5",
-    "chai-as-promised":"^5.1.0"
+  "name": "appium-test",
+  "version": "0.1.1",
+  "repository": "https://github.com/filmaj/appium-test",
+  "devDependencies": {
+    "wd": "^0.3.12",
+    "babel": "^5.4.7",
+    "mocha": "^2.2.5",
+    "chai-as-promised": "^5.1.0"
   },
-  "scripts":{
-    "test":"mocha --require babel-mocha"
+  "scripts": {
+    "test": "mocha --require babel-mocha"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "xutil": "^1.0.11"
   }
 }
